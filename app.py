@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import pickle as pk
 
-model = pk.load(open("Heart_disease_model.pkl", "rb"))
+model = joblib.load(open("Heart_disease_model.pkl", "rb"))
 data = pd.read_csv("heart_disease.csv")
 
 st.title("💓 Heart Disease Prediction App")
