@@ -2,4 +2,4 @@ streamlit
 pandas
 numpy
 imblearn
-sklearn
+scikit-learn
