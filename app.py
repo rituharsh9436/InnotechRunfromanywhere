@@ -28,7 +28,7 @@ st.subheader("Lifestyle Factors")
 col3, col4 = st.columns(2)
 
 with col3:
-    currentSmoker = st.radio("Current Smoker?", options=[0, 1], help="0 for No, 1 for Yes")
+    currentSmoker = st.radio("Current Smoker?", options=[1, 0], help="0 for No, 1 for Yes")
     cigsPerDay = st.number_input("Cigarettes Per Day", min_value=0.0, help="Number of cigarettes smoked per day")
 
 with col4:
